@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: lightblue;
+  font-family: "Ubuntu", sans-serif;
+}
+label,
+input,
+button,
+a {
+  display: block;
+  margin-bottom: 7px;
+}
+form {
+  background-color: darkblue;
+  color: white;
+  width: 25%;
+  padding: 20px;
+  border-radius: 7px;
+}
+#cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 7px;
+  color: red;
+  background-color: wheat;
+}
+button {
+  width: 30%;
+  height: 35px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: white;
+  border: none;
+}
+#id2 {
+  width: 30%;
+  height: 35px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+#user::placeholder {
+  color: white;
+}
+#password::placeholder {
+  color: white;
+}
